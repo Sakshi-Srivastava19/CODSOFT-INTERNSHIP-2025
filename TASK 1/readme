@@ -1,0 +1,83 @@
+# 🚢 Titanic Survival Prediction - CodSoft Internship Project
+
+This is a machine learning project completed as part of the **CodSoft Internship**. The goal is to build a classification model that predicts whether a passenger survived the Titanic disaster using key features like age, gender, class, and fare.
+
+## 📌 Project Objective
+
+Predict passenger survival on the Titanic using supervised machine learning techniques. The model is trained on labeled data and evaluated for accuracy, precision, recall, and F1-score.
+
+---
+
+## 🧠 Problem Statement
+
+Using the Titanic dataset, predict the `Survived` column (0 = No, 1 = Yes) based on features such as:
+- Passenger Class (`Pclass`)
+- Gender (`Sex`)
+- Age
+- Number of Siblings/Spouses (`SibSp`)
+- Number of Parents/Children (`Parch`)
+- Ticket Fare (`Fare`)
+- Embarked Port (`Embarked`)
+
+---
+
+## 📂 Dataset
+
+- Source: [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
+- Files used: `train.csv`
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib & Seaborn (for data visualization)
+- Scikit-learn (for model building & evaluation)
+- Jupyter Notebook
+
+---
+
+## 🔍 Workflow
+
+### 1. Data Preprocessing
+- Handled missing values (`Age`, `Embarked`, `Fare`)
+- Removed unnecessary columns (`Name`, `Ticket`, `Cabin`, `PassengerID`)
+- Label encoded and one-hot encoded categorical variables
+
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed survival rate by gender, class, age groups
+- Visualized correlations and distributions
+
+### 3. Model Building
+- Trained two models:
+  - **Logistic Regression** (baseline model)
+  - **Random Forest Classifier** (final model)
+
+### 4. Model Evaluation
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Feature Importance (for Random Forest)
+
+---
+
+## 📈 Results
+
+| Model                | Accuracy |
+|---------------------|----------|
+| Logistic Regression | 76%      |
+| Random Forest       | 84% ✅    |
+
+- Random Forest achieved higher accuracy and better generalization.
+- Gender (`Sex`), Class (`Pclass`), and Fare were top predictors of survival.
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/titanic-survival-prediction.git
+   cd titanic-survival-prediction
