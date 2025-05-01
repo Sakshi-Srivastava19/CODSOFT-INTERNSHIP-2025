@@ -1,0 +1,68 @@
+# 🌸 Iris Flower Classification – CodSoft Internship (Task 2)
+
+This project is part of my **CodSoft Data Science Internship** and focuses on building a machine learning model to classify **Iris flowers** into three species: *Setosa, Versicolor,* and *Virginica* based on their **sepal and petal measurements**.
+
+---
+
+## 🚀 Project Overview
+
+- **Objective**: Predict the species of Iris flowers using machine learning.
+- **Dataset**: [Kaggle - Iris Flower Dataset](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
+- **Models Used**:
+  - Random Forest Classifier
+  - K-Nearest Neighbors (KNN)
+  - Support Vector Machine (SVM)
+
+---
+
+## 📊 Key Features
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA) using Seaborn & Matplotlib
+- Model Training and Evaluation
+- Performance Metrics: Accuracy, Confusion Matrix, Classification Report
+- **Cross-Validation (CV)** for robust model evaluation
+
+---
+
+## 🧰 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## ✅ Results
+
+- Achieved **95% accuracy** using 5-fold cross-validation.
+- Random Forest and SVM performed exceptionally well on the dataset.
+- Demonstrated strong classification performance across all three classes.
+
+---
+
+## 💡 Learnings
+
+- Importance of proper data validation using Cross-Validation.
+- Power of ensemble models like Random Forest.
+- Visualization for better understanding of class separation.
+
+---
+
+## 🤝 Let's Connect
+
+If you're working on a similar project or have suggestions, feel free to fork, raise issues, or connect with me on [LinkedIn](https://www.linkedin.com)!
+
+---
+
+## 📌 Acknowledgements
+
+- Thanks to **CodSoft** for providing this hands-on opportunity.
+- Dataset credit: [Kaggle - Iris Flower Dataset](https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
+
+---
+
