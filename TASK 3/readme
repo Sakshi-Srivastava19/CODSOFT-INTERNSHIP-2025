@@ -1,0 +1,65 @@
+# 💳 Credit Card Fraud Detection using Machine Learning
+
+![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen)  
+🚀 **Project Completed as part of CodSoft Internship**
+
+This project uses real-world credit card transaction data to detect fraud using machine learning models like **Random Forest** and **XGBoost**. It includes **data preprocessing**, **model training**, **evaluation**, and **Streamlit deployment** for real-time fraud prediction.
+
+---
+
+## 📂 Dataset
+
+- **Source**: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Rows**: 284,807 transactions
+- **Fraud Cases**: 492 (~0.17%)
+- **Features**: 30 (Time, Amount, V1–V28, Class)
+
+---
+
+## 🧰 Tools & Libraries
+
+- Python (Pandas, NumPy)
+- Scikit-learn
+- XGBoost
+- Imbalanced-learn (SMOTE)
+- Streamlit
+- Matplotlib, Seaborn
+- Pickle
+
+---
+
+## 🔧 Project Workflow
+
+1. **Data Preprocessing**
+   - Handled missing values (if any)
+   - Standardized features
+   - Performed EDA & visualizations
+
+2. **Class Imbalance Handling**
+   - Applied **SMOTE** to oversample the minority (fraud) class
+
+3. **Model Training**
+   - Trained **XGBoost** and **Random Forest** models
+   - Evaluated using **Confusion Matrix**, **F1-Score**, and **ROC-AUC**
+
+4. **Model Saving**
+   - Saved models using `pickle` for reuse
+
+5. **Deployment**
+   - Built an interactive UI with **Streamlit** for real-time fraud detection
+
+---
+
+## 📈
+📌 Future Enhancements
+Add SHAP explanations for interpretability
+
+Deploy on Streamlit Cloud or Render
+
+Integrate dashboard analytics
+
+🙋‍♂️ About Me
+👨‍💻 Name: Sakshi srivastava
+📚 Internship: CodSoft - Data science Domain
+🔗 LinkedIn • Portfolio
+
